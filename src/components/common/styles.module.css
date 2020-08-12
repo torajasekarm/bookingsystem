@@ -1,0 +1,63 @@
+.FormItem {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  .FormItem.search {
+    text-align: center;
+  }
+  
+  .FormItem label {
+    margin-right: 2rem;
+  }
+  
+  .FormItem input,
+  .FormItem select {
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 25rem;
+    border: 1px solid #c3c3c3;
+    border-radius: 0.375rem;
+    color: var(--textColor);
+  }
+  
+  .Error {
+    grid-area: error;
+    margin-top: 0.375rem;
+    color: var(--error);
+    font-size: 0.875rem;
+  }
+  
+  .FormItemGroup {
+    display: block;
+  }
+  
+  .FormItemGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .FormItemGroup {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      justify-content: center;
+      align-items: center;
+      grid-template-areas:
+          'label input'
+          'empty error';
+    }
+    
+    .FormItemGroup label {
+      text-align: right;
+      margin-bottom: 0;
+      font-size: 0.875rem;
+      color: #292929;
+    }
+  
+    .FormItemGroup .error {
+      grid-area: error;
+      margin-top: 0.375rem;
+    }
+  }

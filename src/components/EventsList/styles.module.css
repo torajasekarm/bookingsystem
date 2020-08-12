@@ -1,0 +1,15 @@
+.EventsListWrapper {
+    display: Grid;
+    grid-template-columns: repeat(auto-fill, minmax(16.75rem, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .NoResults {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--white);
+  }
+  
+  .Filters {
+    text-align: center;
+  }

@@ -1,0 +1,9 @@
+.EventMedia {
+    padding: 16px 10px;
+    border: 1px solid #e2e2e2;
+    max-width: 400px;
+  }
+  
+  .EventMediaImage {
+    border-radius: 50%;
+  }

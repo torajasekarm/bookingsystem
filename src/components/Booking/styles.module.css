@@ -1,0 +1,83 @@
+.BookingConfirmation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem;
+  }
+  
+  .Icon {
+    width: 2rem;
+    margin-right: 1.25rem;
+  }
+  
+  .BookingConfirmation p {
+    margin: 0;
+  }
+  
+  .BookingInfo {
+    max-width: 18.75rem;
+    margin: 0 auto;
+  }
+  
+  .BackLink {
+    margin: 0 0 2rem;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+  }
+  
+  .BookingWrapper {
+    padding: 4vw;
+    background-color: #fff;
+  }
+  
+  .BookingHeader {
+    max-width: 50rem;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+  
+  .BookingHeader p {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+  }
+  
+  .Title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    letter-spacing: 0.3px;
+    color: #333;
+  }
+  
+  .BookingDetails {
+    display: block;
+  }
+  
+  @media (min-width: 768px) {
+    .BookingDetails {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 2rem;
+      border: 1px solid #333;
+      padding: 5vw;
+    }
+  }
+  
+  .Form__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Form__actions button {
+    margin: 0.625rem;
+    padding: 0.5rem 2rem;
+  }
+  
+  .SelectSeats {
+    max-width: 11.25rem;
+  }

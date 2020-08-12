@@ -1,0 +1,31 @@
+.EventBox {
+    background-color: var(--eventBg);
+    padding: 1rem;
+    border-radius: 0.625rem;
+    transition: all 0.4s;
+  }
+  
+  .EventBox:hover {
+    box-shadow: 0 16px 44px -16px rgba(46, 55, 77, 0.4);
+  }
+  
+  .EventBox h3 {
+    min-height: 2.815rem;
+  }
+  
+  .EventInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0.625rem 0;
+  }
+  
+  .EventDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .Qty {
+    max-width: 6.25rem;
+  }

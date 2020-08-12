@@ -1,0 +1,23 @@
+.Btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #3e3e3e;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    color: var(--primaryblack);
+    transition: all 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .Btn:hover:not(.SoldOut) {
+    background-color: var(--primaryblack);
+    color: var(--white);
+  }
+  
+  .SoldOut {
+    text-decoration: line-through;
+    cursor: not-allowed;
+  }

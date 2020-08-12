@@ -1,0 +1,58 @@
+[
+    {
+        "id": "06535d44-ec1c-4789-912e-ebab5c18a792",
+        "event_name": "Razzle Dazzle",
+        "event_date": "10/4/2020",
+        "event_image": "http://dummyimage.com/400x400.jpg/ff4444/ffffff",
+        "available_seats": 10
+    },
+    {
+        "id": "a4d88015-d811-4b77-b91f-6990e2cdab1e",
+        "event_name": "Rockin' Rollick",
+        "event_date": "2/15/2021",
+        "event_image": "http://dummyimage.com/400x400.jpg/cc0000/ffffff",
+        "available_seats": 4
+    },
+    {
+        "id": "a009e888-3533-490b-9049-48101a5fd5cf",
+        "event_name": "Funky Fest",
+        "event_date": "7/25/2020",
+        "event_image": "http://dummyimage.com/400x400.jpg/ff4444/ffffff",
+        "available_seats": 0
+    },
+    {
+        "id": "cea4a97b-708e-4f7d-bd6c-f6051a1395af",
+        "event_name": "Booty Ball",
+        "event_date": "12/27/2020",
+        "event_image": "http://dummyimage.com/400x400.jpg/cc0000/ffffff",
+        "available_seats": 17
+    },
+    {
+        "id": "1bca57a9-26c0-4bcf-ada0-c5e5d27ffdfa",
+        "event_name": "Hollapalooza",
+        "event_date": "1/1/2021",
+        "event_image": "http://dummyimage.com/400x400.jpg/5fa2dd/ffffff",
+        "available_seats": 5
+    },
+    {
+        "id": "ef6f429d-27ce-49d9-bcca-ca7d36600350",
+        "event_name": "Untamed Night",
+        "event_date": "2/28/2021",
+        "event_image": "http://dummyimage.com/400x400.jpg/dddddd/000000",
+        "available_seats": 3
+    },
+    {
+        "id": "1052614c-6606-495f-b3a4-d74d49912b15",
+        "event_name": "“Bring Your Own Booty” Dance Party",
+        "event_date": "9/21/2020",
+        "event_image": "http://dummyimage.com/400x400.jpg/dddddd/000000",
+        "available_seats": 28
+    },
+    {
+        "id": "da38724d-b737-48fd-a4e5-e22e360afcbc",
+        "event_name": "Drink Outside the Box",
+        "event_date": "1/31/2021",
+        "event_image": "http://dummyimage.com/400x400.jpg/5fa2dd/ffffff",
+        "available_seats": 18
+    }
+]
